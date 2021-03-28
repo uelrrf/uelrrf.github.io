@@ -73,3 +73,4 @@
 .corner-ribbon.red{background: #e43;}
 .corner-ribbon.orange{background: #e82;}
 .corner-ribbon.yellow{background: #ec0;}
+.corner-ribbon.primary{background: var(--pm-primary-color);}
