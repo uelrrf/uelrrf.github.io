@@ -1,5 +1,13 @@
 @import "ribbon.css";
 
+:root {
+    --pm-link-color: var(--pm-app-text-color);
+}
+
+/* a {
+    color: var(--pm-link-color);
+} */
+
 .main {
     display:flex;
 }
@@ -38,6 +46,17 @@ img {
     padding-top: 10%;
     display: flex;
     justify-content:space-evenly;
+}
+
+.location {
+    display:flex;
+    padding-top: 5%;
+    justify-content: center;
+}
+
+.location svg {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .name h4{
