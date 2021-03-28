@@ -1,16 +1,31 @@
+@import "ribbon.css";
+
 .main {
     display:flex;
 }
 
 .child {
-    margin:auto;
+    margin:0;
 }
 
 .ch-left {
     /* background-color: #ffeeee; */
     padding: 5%;
+    
 }
 
+.ch-right {
+    margin: 0;
+    width: 100%;
+}
+
+.descriptions div {
+    padding: 5%;
+}
+
+.about p {
+    text-align: justify;
+}
 /*
 img {
     border-radius: 75%;
@@ -27,6 +42,12 @@ img {
 
 .name h4{
     font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5%
+}
+
+.name h5 {
+    margin-bottom: 0;
 }
 
 .links div {
