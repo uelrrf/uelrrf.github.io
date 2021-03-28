@@ -1,0 +1,56 @@
+{
+  "name": "plume-css",
+  "version": "1.0.4",
+  "author": "Felippe Regazio",
+  "license": "GPL",
+  "description": "A lightweight and highly themeable CSS Micro-Framework",
+  "homepage": "https://felippe-regazio.github.io/plume-css/",
+  "main": "./lib/plume-all.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felippe-regazio/plume-css"
+  },
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp --watch",
+    "dev-docs": "cd docs && gulp --watch",
+    "build-docs": "cd docs && gulp && npm run pack-zip",
+    "build-all": "npm run build && npm run build-docs",
+    "pack-zip": "npm-pack-zip --destination ./docs"
+  },
+  "files": [
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "css",
+    "sass",
+    "micro",
+    "style",
+    "theme",
+    "plume",
+    "themeable",
+    "framework",
+    "plume-css"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-import": "0.0.2",
+    "gulp-mustache": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-variables": "^1.2.0",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "rimraf": "^3.0.2",
+    "npm-pack-zip": "^1.2.7"
+  }
+}

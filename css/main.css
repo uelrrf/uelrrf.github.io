@@ -1,0 +1,54 @@
+.main {
+    display:flex;
+}
+
+.child {
+    margin:auto;
+}
+
+.ch-left {
+    /* background-color: #ffeeee; */
+    padding: 5%;
+}
+
+/*
+img {
+    border-radius: 75%;
+    width:30%;
+    height: auto;
+}
+*/
+
+.links {
+    padding-top: 10%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.name h4{
+    font-weight: bold;
+}
+
+.links div {
+    display:inline-block;
+    padding: 0 5% 0 5%;
+}
+
+.image-cropper {
+
+    height: 300px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+  
+img {
+
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: 300px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
