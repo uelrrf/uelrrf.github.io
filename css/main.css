@@ -51,7 +51,7 @@ img {
 .location {
     display:flex;
     padding-top: 5%;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .location svg {
