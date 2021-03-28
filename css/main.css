@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
 @import "plume-css/lib/plume-all.css";
 
 @import "ribbon.css";
 
 :root {
     --pm-link-color: var(--pm-app-text-color);
+    /* --pm-font-family-secondary: 'Chango', cursive; */
 }
 
 /* a {
@@ -43,6 +46,28 @@ img {
     height: auto;
 }
 */
+
+footer {    
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    position: fixed;
+}
+
+footer div {    
+    justify-content:flex-end;
+    flex-direction: column;
+    min-height: 150px;
+}
+
+.p-footer {
+    display:block;
+    align-self: center;
+    margin: 0;
+    font-size: small;
+    font-weight: bold;
+}
+
 
 .links {
     padding-top: 10%;
